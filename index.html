@@ -1,53 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> SERPENTE </title>
+    <title>Mijn Tetris Pagina</title>
     <style>
+        /* CSS-stijl om de achtergrond zwart en de tekst rood te maken */
         body {
-            background-color: black;
-            color: white;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
-        }
-
-        h1 {
-            color: red;
-        }
-
-        p {
-            max-width: 600px;
-            margin: 20px auto;
-        }
-
-        .game-info {
-            text-align: left;
-        }
-
-        #background-image {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: -1;
+            background-color: black; /* achtergrondkleur zwart maken */
+            color: red; /* tekstkleur rood maken */
+            font-family: Arial, sans-serif; /* lettertype instellen op Arial */
         }
     </style>
+    <link rel="stylesheet" href="style.css"> <!-- Voeg deze regel toe voor de koppeling met het CSS-bestand -->
 </head>
 <body>
-    <h1>SERPENTE </h1>
-    <div class="game-info">
-        <p><strong>Je eigen naam:</strong> Sam en Nicolas</p>
-        <p><strong>De naam van het spel:</strong> Serpente</p>
-        <p><strong>Een korte uitleg van het spel:</strong> "Serpente" is een eenvoudig maar verslavend spel dat lijkt op Snake. Je bestuurt een paarse slang die rode pimenten moet eten om langer te worden. Elke piment vergroot de lengte van de slang en geeft punten. Vermijd botsingen met de muren en je eigen lichaam. Het doel is om de hoogste score te behalen. De game heeft levendige graphics en eenvoudige bediening, waardoor het leuk is voor alle leeftijden. Ga de uitdaging aan en zie hoelang je slang kan worden!</p>
-    </div>
 
-    <script>
-        // Voeg de achtergrondafbeelding van rode pimenten toe
-        document.body.style.backgroundImage = "url('path/to/red-peppers-background.jpg')";
-    </script>
+    <h1> Nicolas en Sam </h1>
+
+    <h2>Spel: Serpente </h2>
+
+    <p>
+
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
